@@ -1,0 +1,22 @@
+{
+  "type": "sqlite",
+  "database": "database.sqlite",
+  "synchronize": true,
+  "logging": true,
+  "entities": ["dist/entity/**/*.js"],
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
+
+// {
+//   "type": "sqlite",
+//   "database": "database.sqlite",
+//   "synchronize": true,
+//   "logging": true,
+//   "entities": ["dist/entity/**/*.ts"],
+//   "cli": {
+//     "entitiesDir": "src/entity"
+//   }
+// }
+, 

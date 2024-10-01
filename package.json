@@ -1,0 +1,24 @@
+{
+  "name": "typeorm-ts-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "buid": "npx tsc",
+    "start:prod": "NODE_ENV=production node ./dist/index.js",
+    "start:dev": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "Emi Roberti",
+  "license": "ISC",
+  "description": "Sample code on using typeORM by Emi",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20"
+  }
+}
